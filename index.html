@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Viagens</title>
+    <link rel="shortcut icon" href="assets/imagens/icone_aba.png">
+    <meta name="description" content="A Agência de viagens que encontra o hotel certo para você">
+</head>
+
+<body>
+    <header>
+        <section>
+            <div>
+                <img src="assets/imagens/local-logo.png" alt="Logo">
+                <p>Agência de Viagens</p>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div>
+                <div>
+                    <img src="assets/imagens/aviao.png" alt="aviao">
+                    <h1>Solicite um orçamento</h1>
+                </div>
+                <div>
+                    <h2>Informe seus dados</h2>
+                    <form method="post" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
+                        <div>
+                            <label for="">Nome</label>
+                            <input type="text" name="nome" placeholder="Nome completo" required>
+                        </div>
+                        <div>
+                            <label for="">Email</label>
+                            <input type="email" name="email" placeholder="Email para contato" required>
+                        </div>
+                        <div>
+                            <label for="">Celular</label>
+                            <input type="tel" name="celular" placeholder="(xx) xxxxx-xxxx" required>
+                        </div>
+                        <div>
+                            <label for="">Data da ida</label>
+                            <input type="date" name="partida" required>
+                            <label for="">Data da volta</label>
+                            <input type="date" name="chegada" required>
+                            <label for="">Origem</label>
+                            <select name="origem" id="local_partida">
+                                <option value="">Partindo de</option>
+                                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            </select>
+                            <label for="">Destino</label>
+                            <select name="destino" id="local_chegada">
+                                <option value="">Indo para</option>
+                                <option value="São paulo">São Paulo</option>
+                            </select>
+                        </div>
+                        <div>
+                            <h3>Quarto com cama infantil?</h3>
+                            <div>
+                                <input type="radio" id="quarto_sim" name="infantil" value="sim">
+                                <label for="quarto_sim">sim</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="quarto_nao" name="infantil" value="nao">
+                                <label for="quarto_nao">nao</label>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>Preferências da hospedagem</h3>
+                            <div>
+                                <input type="checkbox" id="piscina" name="preferencias[]" value="Piscina">
+                                <label for="piscina">Piscina</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="Wi-Fi" name="preferencias[]" value="Wi-Fi">
+                                <label for="Wi-Fi">Wi-Fi</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="garagem" name="preferencias[]" value="Garagem">
+                                <label for="garagem">Garagem</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="suite" name="preferencias[]" value="Suite">
+                                <label for="suite">Suite</label>
+                            </div>
+
+                        </div>
+                        <div>
+                            <button type="submit">Solicitar orçamento
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Ofertas</h3>
+            <h4>Com até <span>50%</span> de desconto</h4>
+            <div>
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>Rio de Janeiro</figcaption>
+                </figure>
+                <div>
+                    <figure><img src="assets/imagens/rio.jpg" alt="Rio">
+                        <figcaption>Manaus</figcaption>
+                    </figure>
+                    <figure><img src="assets/imagens/saopaulo.jpg" alt="São Paulo">
+                        <figcaption>São Paulo</figcaption>
+                    </figure>
+                    <figure><img src="assets/imagens/niteroi.jpg" alt="Ponte">
+                        <figcaption>Rio de Janeiro</figcaption>
+                    </figure>
+                    <figure><img src="assets/imagens/maranhao.jpg" alt="Maranhão">
+                        <figcaption>Maranhão</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3>Explore a Natureza</h3>
+            <h4>Viaje conosco e veja omelhor que a natureza tem a oferecer.</h4>
+            <div>
+                <div>
+                    <img src="assets/imagens/lencol.jpg" alt="">
+                    <div>
+                        <h5>Lençois Maranhenses, Brasil</h5>
+                        <p>Ida e volta a partir de R$79</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="assets/imagens/goias.jpg" alt="">
+                    <div>
+                        <h5>Cachoeira Santa Bárbara, Brasil</h5>
+                        <p>Ida e volta por R$139</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div>
+                <div>
+                    <h3></h3>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div>
+                    <h3></h3>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
